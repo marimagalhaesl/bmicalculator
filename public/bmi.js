@@ -19,6 +19,6 @@ calc.addEventListener("click", async function(ev) {
     console.log(data);
 
     //https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/toPrecision
-    result.innerText = Number(data.msg).toPrecision(4);
+    result.innerText = "Your BMI Result is: " + Number(data.msg).toPrecision(4);
 })
 
